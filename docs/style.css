@@ -110,3 +110,10 @@ footer {
         width: 100%;
     }
 }
+
+/* Dark theme toggled by JavaScript */
+.dark-theme {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
