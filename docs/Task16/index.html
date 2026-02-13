@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 16 - API Dashboard</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header>
+  <h1>REST API Dashboard</h1>
+  <input type="text" id="search" placeholder="Search users...">
+</header>
+
+<main>
+  <div id="loading">Loading data...</div>
+  <div id="error"></div>
+  <div id="userList" class="grid"></div>
+
+  <div class="pagination">
+    <button id="prevBtn">Prev</button>
+    <span id="pageInfo"></span>
+    <button id="nextBtn">Next</button>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
